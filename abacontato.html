@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>FRipoli - Desenvolvimento Web</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="FRipoli, página oficial sobre Desenvolvimento Web produzido por Felipe Ripoli."/>
+        <meta name="keywords" content="Desenvolvimento, projetos, ripoli"/>
+        <meta name="author" content="Felipe Ripoli"/>
+        <link rel="stylesheet" href="../Estudos HTML RBtech, pasta/CSS/CSS normalize.css"/>
+        <link rel="stylesheet" href="../Site Final/CSS/estilo.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Rowdies:wght@300&family=Supermercado+One&display=swap" rel="stylesheet"/>
+    </head>
+
+    <!--Sistema de Grid criado em PX (não adaptável)-->
+    <body> <!--para marcar uma coluna, usar o col (e o número de colunas sempre deve ser 12 por somatória)-->
+        <div class="header">
+            <div class="linha">
+                <header>
+                    <div class="coluna col4">
+                        <h1 class="logo">FRipoli</h1>
+                    </div>    
+                    <div class="coluna col8">
+                        <nav>
+                            <ul class="menu inline sem-marcador">
+                                <li><a href="../Site Final/index.html">home</a></li>
+                                <li><a href="clientes.html">clientes</a></li>
+                                <li><a href="servicos.html">serviços</a></li>
+                                <li><a href="sobre.html">sobre</a></li>
+                                <li><a href="contato.html">contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        </div>  
+        <div class="linha">
+            <section>
+                <div class="coluna col5 sidebar">
+                    <h3>Localização</h3>
+                    <img src="../Site Final/imagens/mapa.jpg" alt="">
+                    <ul class="sem-padding sem-marcador">
+                        <li>Rua Monteiro Lobato, 1414</li> 
+                        <li>Centro</li> 
+                        <li>Jurema-SP</li>  
+                    </ul>
+                    <ul>
+                        <h3>Contato Direto</h3>
+                        <ul class="sem-padding sem-marcador">
+                        <li>Fone : <strong>(00) 1234-5678</strong></li>
+                        <li>Email : <strong>e_mail@gmail.com</strong></li>
+                    </ul>
+                </div>
+                <div class="coluna col7 contato">
+                    <h2>Envie uma mensagem</h2>
+                    <form action="">
+                        <label for="nome">Seu nome :</label>
+                        <input type="text" name="nome" id="nome"/>
+
+                        <label for="email">Seu email :</label>
+                        <input type="text" name="email" id="email"/>
+
+                        <label for="assunto">Assunto :</label>
+                        <input type="text" name="assunto" id="assunto">
+
+                        <label for="mensagem">Mensagem :</label>
+                        <textarea type="text" name="mensagem" id="mensagem"></textarea>
+                        <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;" />
+                    </form>     
+                </div>
+            </section>
+        </div> 
+        <div class="conteudo-extra">
+            <div class="linha">
+                <div class="coluna col7">
+                    <section>
+                        <h2>Método Alternativo de Contato</h2>
+                            <p>Mande uma Carta :D</p>
+                            <p>Tente um sinal de fumaça :)</p>   
+                    </section>
+                </div>
+                <div class="coluna col5">
+                    <h3>últimas Notícias</h3>
+                    <ul class="sem-marcador sem-padding notícias">
+                        <li>
+                           <img src="../Site Final/imagens/thumb-pequena.jpg"/> 
+                           <h4>Título das notícias</h4>
+                           <P>Mais texto para enrolar e gerar volume no site. Eu preciso gerar volume, mas não sei o que
+                               escrever, então vou escrevendo qualquer coisa mesmo até gerar algumas linhas e dar volume
+                               ao site.<a href="">Leia mais &raquo;</a></P>
+                        </li>
+                        <li>
+                            <img src="../Site Final/imagens/thumb-pequena.jpg"/> 
+                            <h4>Título das notícias</h4>
+                            <P>Mais texto para enrolar e gerar volume no site. Eu preciso gerar volume, mas não sei o que
+                                escrever, então vou escrevendo qualquer coisa mesmo até gerar algumas linhas e dar volume
+                                ao site.<a href="">Leia mais &raquo;</a></P>
+                         </li>
+                         <li>
+                            <img src="../Site Final/imagens/thumb-pequena.jpg"/> 
+                            <h4>Título das notícias</h4>
+                            <P>Mais texto para enrolar e gerar volume no site. Eu preciso gerar volume, mas não sei o que
+                                escrever, então vou escrevendo qualquer coisa mesmo até gerar algumas linhas e dar volume
+                                ao site.<a href="">Leia mais &raquo;</a></P>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="footer">
+            <div class="linha">
+                <footer>
+                    <div class="coluna col12">
+                        <span>&copy;; 2022 - FRipoli, Desenvolvimento Web</span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
