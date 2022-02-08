@@ -1,2 +1,3 @@
-# Site-Simples.
-Site criado com HTML, e estilizado com CSS. (Apenas para estudo)
+# Exemplo de Site (simples) criado com HTML, e estilizado/ personalizado com CSS.
+
+Esse foi o projeto onde coloquei em prática algumas "técnicas" aprendidas com cursos gratuitos do YouTube sobre HTML e CSS...
